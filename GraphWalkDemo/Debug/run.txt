@@ -1,0 +1,49 @@
+
+  Demonstrate Graph Traversal Strategies
+ ========================================
+
+  Graph "testGraph 2-23-2018"
+  n1 --> n2 
+  n2 --> n1 n3 n4 
+  n3 --> n1 n4 
+  n4
+  n5 --> n4 
+  n6 --> n2 
+
+  DFS_r_ltr starting at node n1
+ -------------------------------
+   --> n1 --> n2 --> n3 --> n4
+
+  DFS_r_ltr starting at node n1 and walking all
+ -----------------------------------------------
+   --> n1 --> n2 --> n3 --> n4 --> n5 --> n6
+
+  DFS_r_ltr starting at node n3
+ -------------------------------
+   --> n3 --> n1 --> n2 --> n4
+
+  DFS_r_ltr starting at node n3 and walking all
+ -----------------------------------------------
+   --> n3 --> n1 --> n2 --> n4 --> n5 --> n6
+
+  DFS_r_ltrbtt starting at node n3
+ ----------------------------------
+   --> n4 --> n2 --> n1 --> n3
+
+  DFS_r_rtl starting at node n3
+ -------------------------------
+   --> n3 --> n4 --> n1 --> n2
+
+  DFS_s_ltr starting at node n3
+ -------------------------------
+   --> n3 --> n1 --> n2 --> n4 --> n4
+
+  DFS_s_rtl starting at node n3
+ -------------------------------
+   --> n3 --> n4 --> n1 --> n2
+
+  BFS_q starting at node n3
+ ---------------------------
+   --> n3 --> n1 --> n4 --> n2
+
+
