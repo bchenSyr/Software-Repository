@@ -1,0 +1,11 @@
+﻿  Browse.cpp
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(57): error C2143: syntax error: missing ';' before '<'
+  c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(66): note: see reference to class template instantiation 'RepositoryCore::Repository<PayLoad>' being compiled
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(57): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(58): error C2143: syntax error: missing ';' before '<'
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(58): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(65): error C2143: syntax error: missing ';' before '<'
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\bchen95\source\repos\project2-repository\repositorycore\repositorycore.h(65): error C2238: unexpected token(s) preceding ';'
